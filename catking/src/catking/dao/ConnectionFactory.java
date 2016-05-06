@@ -9,8 +9,8 @@ public class ConnectionFactory {
     
     //local DB
     String url = "jdbc:postgresql://192.168.56.101:5432/catking";
-	String user = "student";
-	String password = "himitu";
+	String user = "";
+	String password = "";
     
    
     public Connection getConnection() throws SQLException, 
